@@ -1,0 +1,197 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(247, 168, 179);
+  }
+
+  header {
+    margin: 0;
+    padding: 0;
+    background-image: url();
+  }
+
+  nav {
+    background-color: rgb(189, 218, 252);
+    color: rgb(155, 196, 243);
+    padding: 15px;
+    text-align: center;
+  }
+
+  section {
+    max-width: 2000px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(236, 233, 233, 0.1);
+  }
+
+  .dashboard-item {
+    padding: 10px;
+    background-color: rgb(247, 195, 208);
+    text-align: center;
+    width: 70%;
+    box-sizing: border-box; 
+  }
+
+  li {
+    text-align: left;
+  }
+
+  body {
+    text-align: center;
+  }
+  
+
+  table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 90%; /* Lebar tabel */
+  }
+
+  th, td {
+    border: 1px solid rgb(247, 195, 208);
+    padding: 8px;
+    border: 1px solid rgb(241, 238, 238); /* Atur warna garis dan ketebalan */
+  }
+  table {
+      border-collapse: collapse;
+      width: 100%;
+  }
+  th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+  }
+
+  body {
+    position: relative;
+  }
+
+  body {
+    margin: 0; /* Menghapus margin bawaan browser */
+    padding: 0; /* Menghapus padding bawaan browser */
+    position: relative;
+  }
+
+  .logo {
+position: absolute;
+top: 40px; /* Mengatur jarak dari atas menjadi 300px */
+left: 100px; /* Tetapkan jarak dari kiri */
+width: 100px; /* Sesuaikan lebar logo */
+height: auto; /* Sesuaikan tinggi logo */
+}
+
+
+   /* Gaya CSS untuk animasi tulisan bergerak */
+  @keyframes marquee {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+  .moving-text {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: marquee 5s linear infinite;
+    
+  }
+
+  h2 {
+      color: rgb(250, 246, 246);
+  }
+  
+  h1 {
+      color: white; /* Mengubah warna teks menjadi putih */
+  }
+
+
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+  }
+
+  main {
+    flex: 1;
+  }
+
+  footer {
+    background-color: rgb(247, 195, 208);
+    color: #fff;
+    text-align: center;
+    margin: 10px;
+    
+  }
+
+  /* Gaya CSS untuk tampilan */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 10px;
+  }
+  .text-rata {
+text-align: justify; /* Mengatur teks agar rata kiri dan kanan */
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: rgb(227, 238, 227);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(800px, 4fr)); /* Menyesuaikan lebar kolom */
+    grid-gap: 40px; /* Jarak antar elemen */
+}
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Menata konten ke sisi kiri */
+    flex-direction: row; /* Menata konten secara horizontal */
+}
+.profile-pic {
+    width: 100px; /* Ubah lebar gambar */
+    height: 100px; /* Ubah tinggi gambar */
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    object-fit: cover; /* Pastikan gambar mencakup seluruh lingkaran */
+}
+.bio-info {
+    margin-left: 50px; /* Jarak antara gambar dan teks */
+    text-align: left; /* Posisi teks ke kiri */
+}
+.bio-info p {
+    margin: 10px 0;
+}
+.search-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+input[type="text"] {
+    padding: 8px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+input[type="submit"] {
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #daf7db;
+    color: white;
+    cursor: pointer;
+}
